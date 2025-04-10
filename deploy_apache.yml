@@ -1,0 +1,4 @@
+- name: Print tag apache
+  ansible.builtin.debug:
+    msg:
+    - "this is the tag apache"
