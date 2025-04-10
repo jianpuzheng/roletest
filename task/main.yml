@@ -1,0 +1,4 @@
+- name: test role
+  import_tasks: deploy_apache.yml
+  tags:
+    - deploy_apache
